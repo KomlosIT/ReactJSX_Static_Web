@@ -2,7 +2,7 @@
   "name": "web-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://KomlosIT.github.io/ReactJSX_Static_Web",
+  "homepage": "https://KomlosIT.github.io/ReactJSX_Static_Web/",
   "type": "module",
   "scripts": {
     "dev": "vite",
