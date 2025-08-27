@@ -1,0 +1,179 @@
+.web-container {
+ background-color: black;
+ font-family: serif;
+}
+.header-section {
+  background-color: goldenrod;
+  padding: 10px 0;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.store-name {
+  font-family: "serif";
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-section {
+  background: rgb(15, 14, 14);
+  font-family: "serif";
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fbfcf9;
+  margin-right: 15px;
+}
+
+.banner-section {
+  margin-top: 20px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.content-section {
+  margin: 20px 2cm;
+}
+
+.footer-section {
+  background: #6d6d6b;
+  padding: 20px 0;
+}
+
+.social-buttons .btn {
+  margin-right: 10px;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+/* index.css */
+
+.Main-Menu {
+  padding-left: 1cm;
+  padding-right: 2cm;
+}
+
+@media (max-width: 768px) {
+  .Main-Menu {
+    padding-left: 1cm;
+    padding-right: 1cm;
+  }
+}
+
+@media (max-width: 576px) {
+  .Main-Menu {
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+  }
+}
+
+.header-section,
+.banner-section,
+.content-section,
+.footer-section {
+  width: 100%;
+}
+
+.logo {
+  width: 100px; /* Adjust logo size as needed */
+}
+
+.store-name {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.nav-section {
+  margin-left: auto;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+}
+
+@media (max-width: 992px) {
+  .header-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-section {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.footer-section .social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between social buttons */
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between search input and button */
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+footer {
+  font-family: serif;
+  background-color: #000;
+}
+
+footer a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer h5 {
+  margin-bottom: 1rem;
+}
+
+footer address {
+  white-space: pre-line; /* To preserve formatting */
+}
+
+footer .mr-2 {
+  margin-right: 0.5rem;
+}
+
+footer .mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}

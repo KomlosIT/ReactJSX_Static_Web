@@ -1,0 +1,61 @@
+/* App.css */
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.nav-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.header {
+  background-color: goldenrod;
+}
+/* General Styles */
+/* .web-container {
+    color: white;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.header-section {
+    padding: 10px 20px;
+    background-color: #343a40;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.store-name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.form-inline .form-control {
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Navigation */
+/* 
